@@ -1,4 +1,4 @@
-# Timed-Requests
+# Timed API Requests
 Make timed API calls with accuracy down to the second. Can send multiple requests at the same second.
 
 timed_requests.py makes a GET request to ifconfig.co (or any API_URL) at user-specified timestamps.
