@@ -6,18 +6,18 @@ Requests are sent at the same time for identical timestamps.
 
 timed_requests.py can take 2 different arguments for testing:
 
-    1. --str times_str 
+1. --str times_str 
     
-    where 'times_str' is a string of request times separated by commas.
-    Eg. "09:15:25,11:58:23,13:45:09,13:45:09,13:45:09".
+where 'times_str' is a string of request times separated by commas.
+Eg. "09:15:25,11:58:23,13:45:09,13:45:09,13:45:09".
 
-    2. --test n_tests range_seconds 
+2. --test n_tests range_seconds 
 
-    where 'n_tests' = number of test times to randomly generate, and
-    'range_seconds' = range of seconds after execution in which to generate times (>3 by default
-    to allow time to generate tests). Eg. '--test 8 20' sends 8 requests at random times
-    within 20 seconds of execution.
-    Note: ifconfig.co will give code 429 (too many requests) with >6 requests in one second.
+where 'n_tests' = number of test times to randomly generate, and
+'range_seconds' = range of seconds after execution in which to generate times (>3 by default
+to allow time to generate tests). Eg. '--test 8 20' sends 8 requests at random times
+within 20 seconds of execution.
+Note: ifconfig.co will give code 429 (too many requests) with >6 requests in one second.
 
 Execute the code:
 
