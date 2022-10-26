@@ -20,18 +20,23 @@ within 20 seconds of execution.
 Note: ifconfig.co will give code 429 (too many requests) with >6 requests in one second.
 
 For help, execute:
+
     `python3 timed_requests.py -h`
 
 To run on user-inputted string of times.
+
     `python3 timed_requests.py --str times_str`
 
 To run on automatically generated test times.
+
     `python3 timed_requests.py --test n_tests range_seconds`
 
 For verbose logs on string times.
+
     `python3 timed_requests.py --debug --str times_str`
 
 For verbose logs on test times.
+
     `python3 timed_requests.py --debug --test n_tests range_seconds`
 
 Review logs in console.
