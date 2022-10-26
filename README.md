@@ -23,19 +23,19 @@ For help, execute:
 
     `python3 timed_requests.py -h`
 
-To run on user-inputted string of times.
+To run on user-inputted string of times:
 
     `python3 timed_requests.py --str times_str`
 
-To run on automatically generated test times.
+To run on automatically generated test times:
 
     `python3 timed_requests.py --test n_tests range_seconds`
 
-For verbose logs on string times.
+For verbose logs on string times:
 
     `python3 timed_requests.py --debug --str times_str`
 
-For verbose logs on test times.
+For verbose logs on test times:
 
     `python3 timed_requests.py --debug --test n_tests range_seconds`
 
