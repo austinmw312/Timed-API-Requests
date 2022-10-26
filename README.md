@@ -21,15 +21,15 @@ timed_requests.py can take 2 different arguments for testing:
 
 Execute the code:
 
-`python3 timed_requests.py -h` for help.
+    `python3 timed_requests.py -h` for help.
 
-`python3 timed_requests.py --str times_str` for user-inputted string of times.
+    `python3 timed_requests.py --str times_str` for user-inputted string of times.
 
-`python3 timed_requests.py --test n_tests range_seconds` for automatically generated test times.
+    `python3 timed_requests.py --test n_tests range_seconds` for automatically generated test times.
 
-`python3 timed_requests.py --debug --str times_str` for verbose logs on string times.
+    `python3 timed_requests.py --debug --str times_str` for verbose logs on string times.
 
-`python3 timed_requests.py --debug --test n_tests range_seconds` for verbose logs on test times.
+    `python3 timed_requests.py --debug --test n_tests range_seconds` for verbose logs on test times.
 
 Review logs in console.
 
@@ -37,6 +37,6 @@ Note also:
 For ease of execution, requests module (non-native) is used to bypass 403 error given to urllib
 request where several user credentials are required to make successful request. So you may have to run:
 
-`pip install requests`
+    `pip install requests`
 
 before executing.
